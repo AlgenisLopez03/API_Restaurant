@@ -1,4 +1,4 @@
-<h1>Objetivo general</h1><br><br>
+<h1>Objetivo general</h1>
  ● Hice una api para una aplicación de comida de un restaurante, utilizando asp net core
  mvc 5.
  <h1>Funcionalidades generales</h1>

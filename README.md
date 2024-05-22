@@ -9,8 +9,8 @@ Objetivo general
  cuentas(AccountController) que tenga las siguientes funcionalidades:
  <br><br>
  ● Login: (Permite autenticarse y obtener el token JWT para poder usar las demás
- funcionalidades de la aplicación)
- ● Registro de usuario mesero: (Permite crear usuario con el rol de mesero)
+ funcionalidades de la aplicación)<br><br>
+ ● Registro de usuario mesero: (Permite crear usuario con el rol de mesero)<br><br>
  ● Registro de usuario administrador: (Permite crear usuario con el rol de
  administrador este debe tener la seguridad de que debe haber un usuario loqueago y
  que debe ser de tipo administrador para poder usar este endpoint)

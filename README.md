@@ -32,7 +32,6 @@ También se debe validar que si el usuario logueado es un mesero no puede ingres
  implementa identity con el uso de JWT.
  
  <h1> Requerimientos técnico</h1>
- orden con sus platos, formato json) 204 HTTP (sin contenido) Se elimina la orden con sus platos interno del servidor) 404 (no existe la orden) 500 (error interno del servidor) Mesero
  <br><br>
  * Deben utilizar viewmodels y las validaciones se deben realizar desde los  mismos.<br><br>
  * Se debe usar Entity framework con code first para la persistencia de los datos.<br><br>
@@ -42,6 +41,7 @@ También se debe validar que si el usuario logueado es un mesero no puede ingres
  * Se deben usar identity para el manejo de los usuarios y de la seguridad de api con
  JWT.<br><br>
  * Se deben usar automapper para el mapeo de los viewmodels,  entities y dtos
+<br><br>
 
  ![image](https://github.com/AlgenisLopez03/API_Restaurant/assets/141606823/cfe30efa-ef0e-4e92-a454-1461ed2dfc16)
 ![image](https://github.com/AlgenisLopez03/API_Restaurant/assets/141606823/7e180432-1b70-4622-84ee-397506b1ff1a)

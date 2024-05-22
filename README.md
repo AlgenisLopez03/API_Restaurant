@@ -3,31 +3,31 @@ Objetivo general
  mvc 5.
  <h1>Funcionalidades generales</h1>
  <h2>Login y Seguridad</h2>
- 
- Este sistema tendrá dos roles un rol administrador y un rol mesero, la seguridad en los
- endpoints del api deben de validarse a través del uso de JWT
- El sistema debe crear por defectos estos roles y crear un usuario con el rol
- administrador, otro con el rol mesero y un super administrador con los dos roles.
+ <br><br>
+ Este sistema tendrá dos roles un rol administrador y un rol mesero, la seguridad en losendpoints del api deben de validarse a través del uso de JWT El sistema debe crear por defectos estos roles y crear un usuario con el roladministrador, otro con el rol mesero y un super administrador con los dos roles.
  El sistema tiene que tener un controlador para el manejo de las
  cuentas(AccountController) que tenga las siguientes funcionalidades:
+ <br><br>
  ● Login: (Permite autenticarse y obtener el token JWT para poder usar las demás
  funcionalidades de la aplicación)
  ● Registro de usuario mesero: (Permite crear usuario con el rol de mesero)
  ● Registro de usuario administrador: (Permite crear usuario con el rol de
  administrador este debe tener la seguridad de que debe haber un usuario loqueago y
  que debe ser de tipo administrador para poder usar este endpoint)
+ <br><br>
  Los usuarios se crean activos por lo cual no hay que hacer proceso de confirmación de
  cuenta.
  Si un usuario no está logueado no puede acceder a las funcionalidades ni del
  administrador ni del mesero. Cuando intente entrar a esos enlaces y no esté logueado
  debe mostrarle un mensaje de que no tiene autorización y el status code de la
  respuesta debe ser 401.
- 3
+ <br><br>
 También se debe validar que si el usuario logueado es un mesero no puede ingresar a
  las opciones del administrador y viceversa que si un administrador está logueado no
  pueda entrar a las funcionalidades de los meseros, si intenta acceder a una sección que
  no tiene autorizado a entrar debe retornar una respuesta con el mensaje de acceso
  denegado y status code debe ser 403.
+ <br><br>
  Todas estas validaciones deben realizarse usando los filtros de authorize que
  implementa identity con el uso de JWT.
  
